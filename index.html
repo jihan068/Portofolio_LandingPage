@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jihan Salma Salsabila | Portofolio Jihan</title>
+  <meta name="description" content="Portofolio Jihan Salma Salsabila - Front-End Developer yang fokus pada desain antarmuka web yang interaktif, responsif, dan user-friendly.">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+        <span><span class="gradient-text">My Portofolio</span></span>
+      </a>
+
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">SKILL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- SECTION 1: HOME (HERO) -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 text-center text-lg-start">
+            <div class="hero-status-pill">
+              <span class="pulse-dot"></span>
+              <span>Available for freelance work</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hello, I'm <br>
+              <span class="gradient-text">Jihan Salma Salsabila</span>
+            </h1>
+
+            <div class="typing-container">
+              <span id="typing-text" class="gradient-text-cyan">Informatics Management Student</span>
+            </div>
+
+            <p class="lead text-muted mb-4 pe-lg-4 hero-description">
+              An Informatics Management student and Front-End Developer focused on building clean, responsive, and intuitive web interfaces by combining technical system logic with user-centric design.
+            </p>
+
+            <div class="hero-actions d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-3">
+              <a href="#" id="downloadCvBtn" class="btn btn-gradient">
+                <i class="bi bi-download"></i> Download CV
+              </a>
+              <a href="#about" class="btn btn-outline-glass">
+                <i class="bi bi-person-lines-fill"></i> About Jihan
+              </a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/jihan068" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.instagram.com/jjihan3._?stkn=NHcybHZidXF4ajVo&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.tiktok.com/@jjjeej._" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="TikTok">
+                <i class="bi bi-tiktok"></i>
+              </a>
+              <a href="mailto:salsabilaj111@gmail.com" class="social-icon-btn" title="Email">
+                <i class="bi bi-envelope-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Avatar Box -->
+          <div class="col-lg-5 text-center mt-5 mt-lg-0">
+            <div class="hero-avatar-wrapper">
+              <div class="hero-avatar-box">
+                <img
+                  src="./jihan.jpeg"
+                  alt="Jihan Salma Salsabila"
+                  class="hero-profile-photo"
+                >
+                <div class="photo-note photo-note-top">
+                  Front-End Web
+                </div>
+                <div class="photo-note photo-note-bottom">
+                  I turn designs into interactive web experiences <span aria-hidden="true">♡</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="about-header mb-4">
+          <h2 class="about-heading">About <span class="gradient-text">Me</span></h2>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-7">
+            <div class="about-copy">
+              <p>
+                I am an Informatics Management student at Universitas Negeri Surabaya with a strong focus on Front-End Development. I specialize in bridging the gap between database logic, UI/UX design, and clean web development. With a solid foundation in software concepts, statistics, and hands-on experience in web and mobile app projects, I strive to build responsive, user-friendly, and data-driven digital solutions.
+              </p>
+            </div>
+
+            <ul class="about-highlights">
+              <li>
+                <span class="about-highlight-icon">💻</span>
+                <div>
+                  <strong>What I Do:</strong>
+                  Crafting modern web applications, optimizing performance, and ensuring seamless cross-device responsiveness.
+                </div>
+              </li>
+              <li>
+                <span class="about-highlight-icon">🚀</span>
+                <div>
+                  <strong>My Goal:</strong>
+                  To build web experiences that are not only visually appealing but also accessible and easy to use.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="about-feature-stack">
+              <div class="about-feature-item">
+                <div class="about-feature-icon">📍</div>
+                <div>
+                  <span>Based in</span>
+                  <p>Surabaya, Indonesia</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-icon">&lt;/&gt;</div>
+                <div>
+                  <span>Core Focus</span>
+                  <p>Front-End Development</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-icon">☕</div>
+                <div>
+                  <span>Personality</span>
+                  <p>Problem Solver & Detail Oriented</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILL -->
+    <section id="skills">
+      <div class="container">
+        <div class="skills-header mb-5">
+          <h2 class="skills-heading">Skill <span class="gradient-text">& Tools</span></h2>
+        </div>
+
+        <div class="row g-4" id="skillsContainer">
+          <!-- Skill Card 1 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="frontend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-filetype-html"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">HTML5 & CSS3</h4>
+                    <small class="text-muted">Markup & Styling</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="frontend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-bootstrap-fill"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Bootstrap 5</h4>
+                    <small class="text-muted">UI Component Framework</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="frontend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-code-square"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">JavaScript (ES6+)</h4>
+                    <small class="text-muted">DOM & Async JS</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 4 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="backend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-database"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Database & SQL (MySQL)</h4>
+                    <small class="text-muted">Relational Database</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">65%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 5 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="frontend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-phone"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Responsive Web Design</h4>
+                    <small class="text-muted">Mobile-Friendly Layouts</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 6 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="frontend">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Basic UI/UX Design</h4>
+                    <small class="text-muted">User Interface & Experience</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 7 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="tools">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-code-slash"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">VS Code</h4>
+                    <small class="text-muted">Code Editor</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">85%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 8 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="tools">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-git"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Git & GitHub</h4>
+                    <small class="text-muted">Version Control & CI/CD</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 9 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="tools">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-palette"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">Figma</h4>
+                    <small class="text-muted">Wireframing & Prototyping</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">70%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 70%"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 10 -->
+          <div class="col-md-6 col-lg-4 skill-card-item" data-category="tools">
+            <div class="glass-card skill-card">
+              <div class="d-flex align-items-center justify-content-between mb-2">
+                <div class="d-flex align-items-center gap-3">
+                  <div class="skill-icon-wrapper">
+                    <i class="bi bi-database-gear"></i>
+                  </div>
+                  <div>
+                    <h4 class="h6 text-white mb-0 fw-bold">phpMyAdmin / MySQL Workbench</h4>
+                    <small class="text-muted">Database Management Tools</small>
+                  </div>
+                </div>
+                <span class="badge bg-primary bg-opacity-20 text-primary-light">75%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar-custom" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <div class="about-header project-header mb-5 text-center">
+          <h2 class="about-heading project-heading text-center">Project <span class="gradient-text">Me</span></h2>
+          <p class="text-muted project-caption">A selection of my creative work, ideas, and digital experiences.</p>
+        </div>
+
+        <div class="row g-4" id="projectsContainer">
+          
+          <!-- TokDalang Gym Project -->
+          <div class="col-md-6 col-lg-4 project-card-item">
+            <div class="glass-card project-card">
+              <div class="project-preview">
+                <i class="bi bi-activity project-icon"></i>
+                <span class="badge bg-primary bg-opacity-30 text-white rounded-pill px-3">Project 01</span>
+              </div>
+              <div class="project-body">
+                <span class="project-tag">UI/UX Design</span>
+                <h3 class="project-title">TokDalang Gym</h3>
+                <div class="project-meta">
+                  <i class="bi bi-tools"></i> Figma
+                </div>
+                <p class="text-muted small mb-4">
+                  A fitness-focused digital product concept for TokDalang Gym, designed with an energetic visual style and an intuitive user experience.
+                </p>
+                <a
+                  href="https://www.figma.com/design/tkEZnc0uUxsPfpkhjdqnlg/TokDalangGym-s?node-id=318-1840"
+                  class="btn btn-outline-glass mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the TokDalang Gym design on Figma"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i> View Design
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- College UI/UX Prototype -->
+          <div class="col-md-6 col-lg-4 project-card-item">
+            <div class="glass-card project-card">
+              <div class="project-preview">
+                <i class="bi bi-bezier2 project-icon"></i>
+                <span class="badge bg-primary bg-opacity-30 text-white rounded-pill px-3">Project 02</span>
+              </div>
+              <div class="project-body">
+                <span class="project-tag">UI/UX Design</span>
+                <h3 class="project-title">UI/UX Design Prototype</h3>
+                <div class="project-meta">
+                  <i class="bi bi-tools"></i> Figma
+                </div>
+                <p class="text-muted small mb-4">
+                  A simple UI/UX design prototype created as part of my college coursework, focusing on clear layouts and an easy-to-follow user experience.
+                </p>
+                <a
+                  href="https://www.figma.com/design/HfbSioT8LA6BLLYR65PWCK/UI-UX-Prototype1?node-id=0-1&amp;m=dev&amp;t=8BdLIahvOZ9gBMpW-1"
+                  class="btn btn-outline-glass mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the college UI/UX design prototype on Figma"
+                >
+                  <i class="bi bi-box-arrow-up-right"></i> View Design
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- College Portfolio Website -->
+          <div class="col-md-6 col-lg-4 project-card-item">
+            <div class="glass-card project-card">
+              <div class="project-preview">
+                <i class="bi bi-window-stack project-icon"></i>
+                <span class="badge bg-primary bg-opacity-30 text-white rounded-pill px-3">Project 03</span>
+              </div>
+              <div class="project-body">
+                <span class="project-tag">Web Development</span>
+                <h3 class="project-title">College Portfolio Website</h3>
+                <div class="project-meta">
+                  <i class="bi bi-tools"></i> HTML, CSS, JavaScript
+                </div>
+                <p class="text-muted small mb-4">
+                  A portfolio website created as a college assignment to showcase my profile, projects, and experiences across dedicated Home, About, and Contact pages.
+                </p>
+                <a
+                  href="https://github.com/jihan068/tugasporto_Kuliah"
+                  class="btn btn-outline-glass mt-auto"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="View the college portfolio website source code on GitHub"
+                >
+                  <i class="bi bi-github"></i> View on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="about-heading project-heading text-center">Contact <span class="gradient-text">Me</span></h2>
+          <p class="text-muted">Have a project in mind or want to discuss something? Feel free to send me a message!</p>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <!-- Contact Info Cards -->
+          <div class="col-lg-5">
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon">
+                <i class="bi bi-envelope-open-fill"></i>
+              </div>
+              <div>
+                <h4 class="h6 text-white mb-1 fw-bold">Email Address</h4>
+                <p class="text-muted mb-0 small">salsabilaj111@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon">
+                <i class="bi bi-whatsapp"></i>
+              </div>
+              <div>
+                <h4 class="h6 text-white mb-1 fw-bold">WhatsApp / Phone</h4>
+                <p class="text-muted mb-0 small">081913519226</p>
+              </div>
+            </div>
+
+            <div class="glass-card contact-info-card">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div>
+                <h4 class="h6 text-white mb-1 fw-bold">Location</h4>
+                <p class="text-muted mb-0 small">Surabaya, Indonesia</p>
+              </div>
+            </div>
+
+            <div class="glass-card p-4 text-center mt-4">
+              <h4 class="h6 text-white fw-bold mb-2">Follow Me</h4>
+              <p class="text-muted small mb-3">Let's connect on your favorite platforms</p>
+              <div class="d-flex justify-content-center gap-2">
+                <a href="https://github.com/jihan068" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.tiktok.com/@jjjeej" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="TikTok"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/jjihan3._?stkn=NHcybHZidXF4ajVo&amp;utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="col-lg-7">
+            <div class="glass-card p-4 p-md-5">
+              <h3 class="h4 text-white fw-bold mb-4">Send Me a Message</h3>
+              
+              <form id="contactForm" action="https://formsubmit.co/salsabilaj111@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New portfolio contact message">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" class="d-none" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <div class="row g-3">
+                  <div class="col-12">
+                    <label for="contactName" class="form-label text-muted small fw-bold">Full Name</label>
+                    <input type="text" class="form-control form-control-custom" id="contactName" name="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label text-muted small fw-bold">Subject / Topic</label>
+                    <input type="text" class="form-control form-control-custom" id="contactSubject" name="subject" placeholder="e.g. Website project inquiry" required>
+                  </div>
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label text-muted small fw-bold">Your Message</label>
+                    <textarea class="form-control form-control-custom" id="contactMessage" name="message" rows="5" placeholder="Write your project details or questions here..." required></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-gradient w-100 py-3">
+                      <i class="bi bi-send-fill"></i> Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <div id="formStatus"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
