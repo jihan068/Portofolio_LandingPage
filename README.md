@@ -1,6 +1,7 @@
 # Portofolio Jihan Salma Salsabila
 
-Website portofolio pribadi yang menampilkan profil, keahlian, proyek, dan informasi kontak Jihan Salma Salsabila, mahasiswa Manajemen Informatika yang berfokus pada Front-End Development.
+Website portofolio pribadi yang menampilkan profil, keahlian, proyek, dan informasi kontak Jihan Salma Salsabila, mahasiswa Manajemen Informatika yang berfokus pada Front-End Development. 
+ https://jihan068.github.io/Portofolio_LandingPage/
 
 ## Fitur
 
